@@ -9,7 +9,7 @@
 
 ![](media/example.png)
 
-See [this](https://medium.com/@shudima/multi-language-document-language-identification-93223af83e01) post for implementation details.
+See [this](https://medium.com/hiredscore-engineering/multi-language-documents-identification-93223af83e01) post for implementation details.
 
 
 # Getting Started
