@@ -41,6 +41,14 @@ print(tokens)
 
 ```
 
+`seqtolang` support 36 languages:
+```
+['afr', 'eus', 'bel', 'ben', 'bul', 'cat', 'zho', 'ces', 'dan', 'nld', 'eng', 'est', 'fin', 'fra', 
+'glg', 'deu', 'ell', 'hin', 'hun', 'isl', 'ind', 'gle', 'ita', 'jpn', 'kor', 'lat', 'lit', 'pol', 
+'por', 'ron', 'rus', 'slk', 'spa', 'swe', 'ukr', 'vie']
+
+```
+
 
 # Support
 
