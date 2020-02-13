@@ -1,0 +1,1 @@
+from seqtolang.detector import Detector
