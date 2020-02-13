@@ -25,7 +25,7 @@ class Detector():
                                         hidden_size=DEFAULT_HIDDEN_SIZE,
                                         embedding_dim=DEFAULT_EMBEDDING_DIM).to(self.device).eval()
 
-            state_dict = torch.load(CURRENT_DIR + '/checkpoints/default_model.state_dict')
+            state_dict = torch.load(CURRENT_DIR + '/checkpoints/default_model.state_dict', map_location=self.device)
             self.model.load_state_dict(state_dict)
 
 
