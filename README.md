@@ -31,7 +31,7 @@ text = "In Chinese, the French phrase 'Je rentre chez moi Je rentre chez moi' wi
 languages = detector.detect(text)
 print(languages)
 
->>> [('en': 0.46), ('fra', 0.44), ('zh': 0.1)]
+>>> [('fr', 0.499), ('en', 0.437), ('zh', 0.062)]
 
 
 tokens = detector.detect(text, aggregated=False)
