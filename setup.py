@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.1.1'
+VERSION = '0.1.4'
 
 setup(
     name='seqtolang',
@@ -12,6 +12,8 @@ setup(
     keywords='Deep Learning Natural Language Processing NLP Machine Learning',
     license='Apache',
     packages=find_packages(exclude=['test*']),
+    package_data={'seqtolang': ['checkpoints/*.*']},
+    include_package_data=True,
     install_requires=[
         'torch>=1.1.0',
     ],
