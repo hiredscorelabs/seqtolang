@@ -22,6 +22,13 @@ $ cd seqtolang
 $ python setup.py install
 ```
 
+or using PyPi:
+
+```
+$ pip install seqtolang
+```
+
+### Basic usage:
 
 ```python
 from seqtolang import Detector
@@ -37,7 +44,7 @@ print(languages)
 tokens = detector.detect(text, aggregated=False)
 print(tokens)
 
->>> ['en', 'en', 'en', 'en', 'en', 'fr', 'fr', 'fr', 'fr', 'fr', 'fr', 'fr', 'fr', 'en', 'en', 'zh']
+>>> ['eng', 'eng', 'eng', 'eng', 'eng', 'fra', 'fra', 'fra', 'fra', 'fra', 'fra', 'fra', 'fra', 'eng', 'eng', 'zho']
 
 ```
 
