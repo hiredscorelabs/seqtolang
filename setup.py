@@ -16,5 +16,6 @@ setup(
     include_package_data=True,
     install_requires=[
         'torch>=1.1.0',
+        'numpy>=1.15.4'
     ],
 )

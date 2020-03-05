@@ -57,6 +57,19 @@ print(tokens)
 ```
 
 
+### Docker Example
+
+To make it easier to test the lib a runnable docker is also provided.
+To test it:
+
+```sh
+$> docker build . -t seqtolang
+$> docker run -e SEQTOLANG_TEXT="Good boy in chinese is 好孩子" seqtolang
+['Good', 'boy', 'in', 'chinese', 'is', '好孩子']
+['eng', 'eng', 'eng', 'eng', 'eng', 'zho']
+```
+
+
 # Support
 
 ## Getting Help
