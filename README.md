@@ -4,6 +4,8 @@
 
 [![PyPI pyversions](https://img.shields.io/badge/python-3.6%20%7C%203.7-blue)](https://img.shields.io/badge/python-3.6%20%7C%203.7-blue)
 [![CircleCI](https://circleci.com/gh/hiredscorelabs/seqtolang.svg?style=svg)](https://circleci.com/gh/hiredscorelabs/seqtolang)
+[![Actions Status](https://github.com/hiredscorelabs/seqtolang/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/hiredscorelabs/seqtolang/actions)
+
 
 `seqtolang` is a python library for multi-langauge documents identification.
 
